@@ -266,7 +266,7 @@ _**Note:** The directories above are generally located in the Android SDK ROOT._
 
 #### macOS and Linux
 
-On a Mac or Linux, with a text editor, create or modify the `~/.bash_profile` file.
+On a Mac or Linux, with a text editor, create or modify the `~/.bash_profile` or `~/.zprofile` if macOS is Catalina or newer.
 
 To set an environment variable, add a line that uses `export` like so (substitute the path with your local installation):
 
@@ -288,6 +288,12 @@ Reload your terminal to see this change reflected or run the following command:
 ```bash
 source ~/.bash_profile
 ```
+
+or on macOS Catalina and newer
+```bash
+source ~/.zprofile
+```
+
 
 #### Windows
 
