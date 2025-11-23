@@ -47,6 +47,25 @@ function checkNotification() {
     var dates = [];
     if (lastVisit != "") {
         
+        dates.push('Sun, 23 Nov 2025 00:00:00 +0000');
+        dates.push('Wed, 05 Nov 2025 00:00:00 +0000');
+        dates.push('Wed, 22 Oct 2025 00:00:00 +0000');
+        dates.push('Fri, 29 Aug 2025 00:00:00 +0000');
+        dates.push('Fri, 29 Aug 2025 00:00:00 +0000');
+        dates.push('Sat, 09 Aug 2025 00:00:00 +0000');
+        dates.push('Wed, 30 Apr 2025 00:00:00 +0000');
+        dates.push('Wed, 26 Mar 2025 00:00:00 +0000');
+        dates.push('Wed, 26 Feb 2025 00:00:00 +0000');
+        dates.push('Sun, 02 Feb 2025 00:00:00 +0000');
+        dates.push('Fri, 31 Jan 2025 00:00:00 +0000');
+        dates.push('Wed, 08 Jan 2025 00:00:00 +0000');
+        dates.push('Wed, 20 Nov 2024 00:00:00 +0000');
+        dates.push('Sat, 02 Nov 2024 00:00:00 +0000');
+        dates.push('Fri, 01 Nov 2024 00:00:00 +0000');
+        dates.push('Mon, 28 Oct 2024 00:00:00 +0000');
+        dates.push('Wed, 23 Oct 2024 00:00:00 +0000');
+        dates.push('Mon, 21 Oct 2024 00:00:00 +0000');
+        dates.push('Wed, 24 Jul 2024 00:00:00 +0000');
         dates.push('Thu, 23 May 2024 00:00:00 +0000');
         dates.push('Wed, 03 Apr 2024 00:00:00 +0000');
         dates.push('Mon, 11 Mar 2024 00:00:00 +0000');
